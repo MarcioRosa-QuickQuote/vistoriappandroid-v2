@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vistoria</string>
+    
+    <!-- Tela Inicial -->
+    <string name="hello_home_fragment">Bem-vindo ao Vistoria</string>
+    <string name="new_inspection">Nova Vistoria</string>
+    <string name="action_history">Histórico</string>
+    <string name="current_inspection">Vistoria atual</string>
+    <string name="continue_inspection">Continuar Vistoria</string>
+    
+    <!-- Tela de Nova Vistoria -->
+    <string name="client_name_hint">Nome do Cliente</string>
+    <string name="rooms_title">Ambientes</string>
+    <string name="finish_inspection">Finalizar Vistoria</string>
+    <string name="error_required_field">Campo obrigatório</string>
+    
+    <!-- Item de Ambiente -->
+    <string name="status_icon_description">Ícone de status</string>
+    <string name="take_photo">Tirar Foto</string>
+    <string name="add_description">Adicionar Descrição</string>
+    <string name="photo_count">%1$d fotos</string>
+    <string name="no_photos">Sem fotos</string>
+    
+    <!-- Tela da Câmera -->
+    <string name="camera_permissions_required">Permissões de câmera são necessárias</string>
+    <string name="flash_button_description">Alternar flash</string>
+    <string name="capture_photo">Capturar Foto</string>
+    <string name="finish_photos">Concluir</string>
+    <string name="photo_thumbnail_description">Miniatura da foto</string>
+    <string name="remove_photo_description">Remover foto</string>
+    
+    <!-- Tela de Descrição -->
+    <string name="room_description_title">Descrição do Ambiente</string>
+    <string name="room_description_hint">Adicione observações ou detalhes sobre este ambiente…</string>
+    <string name="save_description">Salvar Descrição</string>
+    
+    <!-- Tela de Conclusão -->
+    <string name="inspection_completed_title">Vistoria Concluída</string>
+    <string name="inspection_completed_message">O relatório da vistoria foi gerado com sucesso.</string>
+    <string name="share_report">Compartilhar Relatório</string>
+    <string name="back_to_home">Voltar ao Início</string>
+    
+    <!-- Tela de Histórico -->
+    <string name="history_title">Histórico de Vistorias</string>
+    <string name="no_inspections">Nenhuma vistoria encontrada</string>
+    <string name="inspection_date">Data: %1$s</string>
+    <string name="view_details">Ver Detalhes</string>
+    <string name="delete_inspection">Apagar</string>
+    <string name="clear_history">Limpar Histórico</string>
+    
+    <!-- Tela de Configurações -->
+    <string name="settings_title">Configurações</string>
+    <string name="inspector_name">Nome do Inspetor</string>
+    <string name="company_name">Nome da Empresa</string>
+    <string name="company_logo">Logo da Empresa</string>
+    <string name="select_image">Selecionar Imagem</string>
+    <string name="theme_colors">Cores do Tema</string>
+    <string name="primary_color">Cor Primária</string>
+    <string name="accent_color">Cor de Destaque</string>
+    <string name="background_color">Cor de Fundo</string>
+    <string name="text_color">Cor do Texto</string>
+    <string name="default_rooms">Ambientes Padrão</string>
+    <string name="add_room">Adicionar Ambiente</string>
+    <string name="remove_room">Remover</string>
+    <string name="save_settings">Salvar Configurações</string>
+    <string name="settings_saved">Configurações salvas com sucesso</string>
+    
+    <!-- Diálogos -->
+    <string name="dialog_confirm_title">Confirmação</string>
+    <string name="dialog_delete_inspection">Deseja realmente excluir esta vistoria?</string>
+    <string name="dialog_clear_history">Deseja realmente limpar todo o histórico?</string>
+    <string name="dialog_confirm">Confirmar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    
+    <!-- Mensagens -->
+    <string name="error_camera_init">Erro ao iniciar a câmera</string>
+    <string name="error_capture_photo">Erro ao capturar foto</string>
+    <string name="error_process_image">Erro ao processar imagem</string>
+    <string name="error_generate_report">Erro ao gerar o relatório. Tente novamente.</string>
+    <string name="photo_removed">Foto removida</string>
+    <string name="generating_report">Gerando relatório…</string>
+    <string name="inspection_saved">Vistoria salva com sucesso</string>
+</resources>
