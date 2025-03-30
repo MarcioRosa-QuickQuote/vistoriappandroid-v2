@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo base para botões -->
+    <style name="Widget.VistoriaApp.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="cornerRadius">@dimen/card_corner_radius</item>
+    </style>
+    
+    <!-- Botão primário (normalmente na cor do tema) -->
+    <style name="Widget.VistoriaApp.Button.Primary" parent="Widget.VistoriaApp.Button">
+        <item name="backgroundTint">?attr/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <!-- Botão secundário (outline) -->
+    <style name="Widget.VistoriaApp.Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="cornerRadius">@dimen/card_corner_radius</item>
+        <item name="strokeColor">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+    
+    <!-- Botão de texto -->
+    <style name="Widget.VistoriaApp.Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+    
+    <!-- Estilo para cards -->
+    <style name="Widget.VistoriaApp.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="android:layout_margin">@dimen/spacing_medium</item>
+        <item name="contentPadding">@dimen/spacing_medium</item>
+    </style>
+    
+    <!-- Estilo para títulos -->
+    <style name="TextAppearance.VistoriaApp.Title" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- Estilo para subtítulos -->
+    <style name="TextAppearance.VistoriaApp.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    
+    <!-- Estilo para corpo de texto -->
+    <style name="TextAppearance.VistoriaApp.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    
+    <!-- Estilo para texto pequeno -->
+    <style name="TextAppearance.VistoriaApp.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/medium_gray</item>
+    </style>
+</resources>

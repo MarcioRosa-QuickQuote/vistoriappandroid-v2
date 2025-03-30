@@ -1,57 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base application theme. -->
-    <style name="Theme.VistoriaApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
+    <!-- Tema Base -->
+    <style name="Theme.VistoriaApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Atributos primários -->
         <item name="colorPrimary">@color/yellow_primary</item>
         <item name="colorPrimaryVariant">@color/yellow_dark</item>
         <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
+        
+        <!-- Atributos secundários -->
+        <item name="colorSecondary">@color/yellow_primary</item>
+        <item name="colorSecondaryVariant">@color/yellow_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Status bar e barra de navegação -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">?attr/colorPrimaryVariant</item>
+        
+        <!-- Estilos de componentes -->
+        <item name="materialButtonStyle">@style/Widget.VistoriaApp.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.VistoriaApp.Card</item>
+        
+        <!-- Outros atributos -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
-
-    <style name="Theme.VistoriaApp.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <style name="Theme.VistoriaApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.VistoriaApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
     
-    <!-- Temas específicos para cada cor -->
+    <!-- Tema Amarelo -->
     <style name="Theme.VistoriaApp.Yellow" parent="Theme.VistoriaApp">
         <item name="colorPrimary">@color/yellow_primary</item>
         <item name="colorPrimaryVariant">@color/yellow_dark</item>
-        <item name="android:colorBackground">@color/background_yellow</item>
+        <item name="colorSecondary">@color/yellow_primary</item>
+        <item name="colorSecondaryVariant">@color/yellow_dark</item>
     </style>
     
+    <!-- Tema Azul -->
     <style name="Theme.VistoriaApp.Blue" parent="Theme.VistoriaApp">
         <item name="colorPrimary">@color/blue_primary</item>
         <item name="colorPrimaryVariant">@color/blue_dark</item>
-        <item name="android:colorBackground">@color/background_blue</item>
+        <item name="colorSecondary">@color/blue_primary</item>
+        <item name="colorSecondaryVariant">@color/blue_dark</item>
     </style>
     
+    <!-- Tema Verde -->
     <style name="Theme.VistoriaApp.Green" parent="Theme.VistoriaApp">
         <item name="colorPrimary">@color/green_primary</item>
         <item name="colorPrimaryVariant">@color/green_dark</item>
-        <item name="android:colorBackground">@color/background_green</item>
+        <item name="colorSecondary">@color/green_primary</item>
+        <item name="colorSecondaryVariant">@color/green_dark</item>
     </style>
     
+    <!-- Tema Roxo -->
     <style name="Theme.VistoriaApp.Purple" parent="Theme.VistoriaApp">
         <item name="colorPrimary">@color/purple_primary</item>
         <item name="colorPrimaryVariant">@color/purple_dark</item>
-        <item name="android:colorBackground">@color/background_purple</item>
+        <item name="colorSecondary">@color/purple_primary</item>
+        <item name="colorSecondaryVariant">@color/purple_dark</item>
     </style>
     
+    <!-- Tema Laranja -->
     <style name="Theme.VistoriaApp.Orange" parent="Theme.VistoriaApp">
         <item name="colorPrimary">@color/orange_primary</item>
         <item name="colorPrimaryVariant">@color/orange_dark</item>
-        <item name="android:colorBackground">@color/background_orange</item>
+        <item name="colorSecondary">@color/orange_primary</item>
+        <item name="colorSecondaryVariant">@color/orange_dark</item>
     </style>
 </resources>
