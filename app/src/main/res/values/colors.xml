@@ -1,33 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Cores principais -->
     <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
-
-    <!-- Roxo -->
-    <color name="purple_200">#BB86FC</color>
-    <color name="purple_500">#6200EE</color>
-    <color name="purple_700">#3700B3</color>
-    <color name="purple_dark">#3700B3</color>
-
-    <!-- Laranja -->
-    <color name="orange_primary">#FF9800</color>
-    <color name="orange_dark">#F57C00</color>
-
-    <!-- Amarelo -->
-    <color name="yellow_primary">#FFEB3B</color>
-
-    <!-- Tema escuro -->
-    <color name="dark_background">#121212</color>
-    <color name="dark_text">#FFFFFF</color>
-
-    <!-- Texto -->
-    <color name="primary_text">#212121</color>
-
-    <!-- Outros -->
-    <color name="teal_200">#03DAC5</color>
-    <color name="teal_700">#018786</color>
-    <color name="black">#000000</color>
-    <color name="white">#FFFFFF</color>
 </resources>

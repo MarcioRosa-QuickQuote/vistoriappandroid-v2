@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
-
-    <!-- Overlay da AppBar (separado caso precise) -->
-    <style name="Theme.VistoriaApp.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
-
-    <!-- Overlay de Popup (menu suspenso) -->
-    <style name="Theme.VistoriaApp.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
-
+<resources>
+    <style name="Theme.VistoriaApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.VistoriaApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

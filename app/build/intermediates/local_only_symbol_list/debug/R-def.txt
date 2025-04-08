@@ -1,30 +1,13 @@
 R_DEF: Internal format may change without notice
 local
 color black
-color colorAccent
-color colorPrimary
-color colorPrimaryDark
 color dark_background
 color dark_text
 color orange_dark
 color orange_primary
-color primary_text
-color purple_200
-color purple_500
-color purple_700
 color purple_dark
-color teal_200
-color teal_700
 color white
-color yellow_primary
-dimen card_corner_radius
-dimen card_elevation
 dimen fab_margin
-dimen spacing_large
-dimen spacing_medium
-dimen spacing_small
-dimen spacing_xlarge
-dimen spacing_xsmall
 drawable bg_status_tag
 drawable card_background
 drawable circle_background
@@ -80,7 +63,7 @@ id editNomeAmbiente
 id editTextClientName
 id editTextComentario
 id editTextDescription
-id editTextNomeCliente
+id fab
 id homeFragment
 id imageAmbiente
 id imageButtonDelete
@@ -105,11 +88,11 @@ id textInputLayoutClientName
 id textNomeAmbiente
 id textStatus
 id textViewHistorico
-id textViewLabelNomeCliente
 id textViewNomeAmbiente
 id textViewRoomDescription
 id textViewRoomName
 id textViewRoomsTitle
+id toolbar
 layout activity_captura_foto
 layout activity_editar_ambiente
 layout activity_historico
@@ -138,12 +121,8 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
 string action_history
-string action_settings
-string add_description
 string app_name
 string capture_photo
-string client_name_hint
-string error_required_field
 string finish_inspection
 string finish_photos
 string flash_button_description
@@ -151,11 +130,6 @@ string hello_home_fragment
 string new_inspection
 string photo_thumbnail_description
 string remove_photo_description
-string room_description_hint
-string room_description_title
-string save_description
-string status_icon_description
-string take_photo
 style Theme.VistoriApp
 style Theme.VistoriaApp
 style Theme.VistoriaApp.AppBarOverlay

@@ -21,8 +21,8 @@ class AmbienteAdapter(private val ambientes: List<String>?) :
     }
 
     override fun onBindViewHolder(holder: AmbienteViewHolder, position: Int) {
-        val ambiente = ambientes?.getOrNull(position)
-        holder.textNomeAmbiente?.text = ambiente ?: "Ambiente não disponível"
+        // Remove exibição do nome do arquivo
+        holder.textNomeAmbiente?.text = "" // Se quiser, pode usar: "Ambiente"
     }
 
     override fun getItemCount(): Int = ambientes?.size ?: 0

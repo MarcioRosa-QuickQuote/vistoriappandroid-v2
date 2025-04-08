@@ -1,24 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">VistoriaApp</string>
-
-    <string name="hello_home_fragment">Bem-vindo ao VistoriaApp!</string>
-    <string name="new_inspection">Nova Vistoria</string>
+    <string name="app_name">Vistoria App</string>
+    <string name="flash_button_description">Alternar flash</string>
+    <string name="capture_photo">Capturar foto</string>
+    <string name="finish_photos">Finalizar fotos</string>
+    <string name="hello_home_fragment">Bem-vindo ao Home</string>
+    <string name="new_inspection">Nova vistoria</string>
     <string name="action_history">Histórico</string>
-    <string name="client_name_hint">Nome do cliente</string>
     <string name="finish_inspection">Finalizar vistoria</string>
-    <string name="room_description_title">Descrição do Cômodo</string>
-    <string name="room_description_hint">Digite a descrição do cômodo</string>
-    <string name="save_description">Salvar descrição</string>
     <string name="photo_thumbnail_description">Miniatura da foto</string>
     <string name="remove_photo_description">Remover foto</string>
-    <string name="flash_button_description">Alternar flash</string>
-    <string name="capture_photo">Tirar Foto</string>
-    <string name="finish_photos">Finalizar Fotos</string>
-    <string name="action_settings">Configurações</string>
-    <string name="status_icon_description">Ícone de status</string>
-    <string name="take_photo">Tirar Foto</string>
-    <string name="add_description">Adicionar Descrição</string>
-    <string name="error_required_field">Este campo é obrigatório</string>
 </resources>
-
