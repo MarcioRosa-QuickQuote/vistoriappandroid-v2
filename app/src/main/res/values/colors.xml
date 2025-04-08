@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Cores padrão do sistema -->
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="light_gray">#FFE0E0E0</color>
-    <color name="medium_gray">#FF888888</color>
-    <color name="dark_gray">#FF444444</color>
-    
-    <!-- Cores primárias para temas -->
-    <color name="yellow_primary">#FFFFCC00</color>
-    <color name="yellow_light">#FFFFDD55</color>
-    <color name="yellow_dark">#FFCCAA00</color>
-    
-    <color name="blue_primary">#FF2196F3</color>
-    <color name="blue_light">#FF64B5F6</color>
-    <color name="blue_dark">#FF1976D2</color>
-    
-    <color name="green_primary">#FF4CAF50</color>
-    <color name="green_light">#FF81C784</color>
-    <color name="green_dark">#FF388E3C</color>
-    
-    <color name="purple_primary">#FF9C27B0</color>
-    <color name="purple_light">#FFBA68C8</color>
-    <color name="purple_dark">#FF7B1FA2</color>
-    
-    <color name="orange_primary">#FFFF9800</color>
-    <color name="orange_light">#FFFFB74D</color>
-    <color name="orange_dark">#FFF57C00</color>
-    
-    <!-- Cores de status -->
-    <color name="status_pending">#FFFF9800</color>
-    <color name="status_completed">#FF4CAF50</color>
-    <color name="status_error">#FFF44336</color>
+    <!-- Cores principais -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Roxo -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="purple_dark">#3700B3</color>
+
+    <!-- Laranja -->
+    <color name="orange_primary">#FF9800</color>
+    <color name="orange_dark">#F57C00</color>
+
+    <!-- Amarelo -->
+    <color name="yellow_primary">#FFEB3B</color>
+
+    <!-- Tema escuro -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_text">#FFFFFF</color>
+
+    <!-- Texto -->
+    <color name="primary_text">#212121</color>
+
+    <!-- Outros -->
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
 </resources>

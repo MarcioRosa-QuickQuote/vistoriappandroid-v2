@@ -1,0 +1,254 @@
+[
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_ic_image_placeholder.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/ic_image_placeholder.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_ic_flash_off.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/ic_flash_off.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_fragment_home.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_ic_logo_placeholder.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/ic_logo_placeholder.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_rounded_white_button.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/rounded_white_button.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_rounded_image_border.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/rounded_image_border.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_fragment_room_description.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/fragment_room_description.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_activity_editar_ambiente.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/activity_editar_ambiente.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/navigation_nav_graph.xml.flat",
+        "source": "com.vistoria.app-main-47:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_ic_flash.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/ic_flash.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.vistoria.app-main-47:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_round_button_background.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/round_button_background.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_item_camera_thumbnail.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/item_camera_thumbnail.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_activity_historico.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/activity_historico.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_item_room_home.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/item_room_home.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/menu_menu_main.xml.flat",
+        "source": "com.vistoria.app-main-47:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_ic_history.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_fragment_inspection_completed.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/fragment_inspection_completed.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_ic_delete.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_item_photo_thumbnail.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/item_photo_thumbnail.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_ic_flash_on.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/ic_flash_on.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_item_ambiente.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/item_ambiente.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_fragment_descricao.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/fragment_descricao.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_fragment_nova_vistoria.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/fragment_nova_vistoria.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_fragment_camera.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/fragment_camera.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_ic_done.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/ic_done.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_fragment_configuracoes.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/fragment_configuracoes.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_rounded_grey_button.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/rounded_grey_button.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/xml_data_extraction_rules.xml.flat",
+        "source": "com.vistoria.app-main-47:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_viewfinder_frame.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/viewfinder_frame.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_fragment_photo_preview.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/fragment_photo_preview.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_activity_revisao_fotos.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/activity_revisao_fotos.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_status_background.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/status_background.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.vistoria.app-main-47:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_ic_camera.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/ic_camera.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_item_room.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/item_room.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.vistoria.app-main-47:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_item_ambiente_card.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/item_ambiente_card.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_bg_status_tag.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/bg_status_tag.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_rounded_yellow_button.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/rounded_yellow_button.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_placeholder.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/placeholder.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_content_main.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_ic_add.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_rounded_orange_button.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/rounded_orange_button.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_activity_main.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_text_bubble_background.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/text_bubble_background.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/xml_file_paths.xml.flat",
+        "source": "com.vistoria.app-main-47:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_rounded_blue_button.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/rounded_blue_button.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_card_background.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/card_background.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_ic_home.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_ic_settings.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_rounded_purple_button.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/rounded_purple_button.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_ic_pending.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/ic_pending.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_item_photo.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/item_photo.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_rounded_gray_button.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/rounded_gray_button.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_rounded_background.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/rounded_background.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_circle_background.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/circle_background.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_activity_captura_foto.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/activity_captura_foto.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_ic_check.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/ic_check.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/xml_backup_rules.xml.flat",
+        "source": "com.vistoria.app-main-47:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.vistoria.app-merged_res-45:/layout_fragment_historico.xml.flat",
+        "source": "com.vistoria.app-main-47:/layout/fragment_historico.xml"
+    }
+]

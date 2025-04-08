@@ -1,59 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">VistoriaApp</string>
-    
-    <!-- Tela Principal -->
-    <string name="btn_new_inspection">Nova Vistoria</string>
-    <string name="btn_history">Histórico</string>
-    <string name="btn_settings">Configurações</string>
-    
-    <!-- Tela de Nova Vistoria -->
-    <string name="client_name_label">Nome do Cliente:</string>
-    <string name="client_name_hint">Digite o nome do cliente</string>
-    <string name="start_inspection_button">Iniciar Vistoria</string>
-    
-    <!-- Tela de Salas -->
-    <string name="rooms_title">Ambientes</string>
-    <string name="room_status_pending">Pendente</string>
-    <string name="room_status_completed">Concluído</string>
-    <string name="take_photo_button">Tirar Foto</string>
-    <string name="add_description_button">Adicionar Descrição</string>
-    <string name="complete_inspection_button">Finalizar Vistoria</string>
-    
-    <!-- Tela de Descrição do Ambiente -->
-    <string name="room_description_title">Descrição do Ambiente</string>
-    <string name="room_description_hint">Descreva o estado atual deste ambiente…</string>
-    <string name="save_description">Salvar Descrição</string>
-    
-    <!-- Tela de Histórico -->
-    <string name="history_title">Histórico de Vistorias</string>
-    <string name="no_inspections_message">Nenhuma vistoria encontrada</string>
-    <string name="delete_inspection">Excluir</string>
-    <string name="view_inspection">Visualizar</string>
-    <string name="export_pdf">Exportar PDF</string>
-    
-    <!-- Tela de Configurações -->
-    <string name="settings_title">Configurações</string>
-    <string name="theme_selection_title">Tema do Aplicativo</string>
-    <string name="room_management_title">Gerenciar Ambientes</string>
-    <string name="add_custom_room">Adicionar Ambiente Personalizado</string>
-    <string name="save_settings">Salvar Configurações</string>
-    <string name="yellow_theme">Amarelo</string>
-    <string name="blue_theme">Azul</string>
-    <string name="green_theme">Verde</string>
-    <string name="purple_theme">Roxo</string>
-    <string name="orange_theme">Laranja</string>
-    
-    <!-- Permissões -->
-    <string name="camera_permission_message">É necessário permissão para usar a câmera</string>
-    <string name="storage_permission_message">É necessário permissão para salvar arquivos</string>
-    
-    <!-- Mensagens -->
-    <string name="photo_saved">Foto salva com sucesso</string>
-    <string name="photo_save_error">Erro ao salvar foto</string>
-    <string name="pdf_generated">Relatório PDF gerado com sucesso</string>
-    <string name="pdf_error">Erro ao gerar PDF</string>
-    <string name="inspection_saved">Vistoria salva com sucesso</string>
-    <string name="inspection_deleted">Vistoria excluída com sucesso</string>
-    <string name="field_required">Campo obrigatório</string>
+
+    <string name="hello_home_fragment">Bem-vindo ao VistoriaApp!</string>
+    <string name="new_inspection">Nova Vistoria</string>
+    <string name="action_history">Histórico</string>
+    <string name="client_name_hint">Nome do cliente</string>
+    <string name="finish_inspection">Finalizar vistoria</string>
+    <string name="room_description_title">Descrição do Cômodo</string>
+    <string name="room_description_hint">Digite a descrição do cômodo</string>
+    <string name="save_description">Salvar descrição</string>
+    <string name="photo_thumbnail_description">Miniatura da foto</string>
+    <string name="remove_photo_description">Remover foto</string>
+    <string name="flash_button_description">Alternar flash</string>
+    <string name="capture_photo">Tirar Foto</string>
+    <string name="finish_photos">Finalizar Fotos</string>
+    <string name="action_settings">Configurações</string>
+    <string name="status_icon_description">Ícone de status</string>
+    <string name="take_photo">Tirar Foto</string>
+    <string name="add_description">Adicionar Descrição</string>
+    <string name="error_required_field">Este campo é obrigatório</string>
 </resources>
+

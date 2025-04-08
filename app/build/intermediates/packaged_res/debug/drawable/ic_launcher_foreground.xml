@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:translateX="28"
+        android:translateY="28">
+        <!-- Ícone de casa simples -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M50,20L85,55V90H15V55L50,20M50,11.7L0,61.7V100H100V61.7L50,11.7Z" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M40,60h20v20h-20z" />
+    </group>
+</vector>

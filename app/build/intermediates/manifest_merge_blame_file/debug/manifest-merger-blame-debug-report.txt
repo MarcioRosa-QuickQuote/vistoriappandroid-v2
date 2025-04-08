@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vistoria.app"
+4    android:versionCode="2"
+5    android:versionName="1.0.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/ba199e5c5a1f259ceb67cdf47d2fa5de/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.vistoria.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/ba199e5c5a1f259ceb67cdf47d2fa5de/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/ba199e5c5a1f259ceb67cdf47d2fa5de/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.vistoria.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/ba199e5c5a1f259ceb67cdf47d2fa5de/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/ba199e5c5a1f259ceb67cdf47d2fa5de/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/workspaces/vistoriappandroid-v2/app/src/main/AndroidManifest.xml:5:5-21:19
+18        android:allowBackup="true"
+18-->/workspaces/vistoriappandroid-v2/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/ba199e5c5a1f259ceb67cdf47d2fa5de/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->/workspaces/vistoriappandroid-v2/app/src/main/AndroidManifest.xml:7:9-43
+23        android:label="@string/app_name"
+23-->/workspaces/vistoriappandroid-v2/app/src/main/AndroidManifest.xml:8:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/workspaces/vistoriappandroid-v2/app/src/main/AndroidManifest.xml:9:9-54
+25        android:supportsRtl="true"
+25-->/workspaces/vistoriappandroid-v2/app/src/main/AndroidManifest.xml:10:9-35
+26        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+26-->/workspaces/vistoriappandroid-v2/app/src/main/AndroidManifest.xml:11:9-65
+27        <activity
+27-->/workspaces/vistoriappandroid-v2/app/src/main/AndroidManifest.xml:13:9-19:20
+28            android:name="com.vistoria.app.MainActivity"
+28-->/workspaces/vistoriappandroid-v2/app/src/main/AndroidManifest.xml:13:19-47
+29            android:exported="true" >
+29-->/workspaces/vistoriappandroid-v2/app/src/main/AndroidManifest.xml:14:13-36
+30            <intent-filter>
+30-->/workspaces/vistoriappandroid-v2/app/src/main/AndroidManifest.xml:15:13-18:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/workspaces/vistoriappandroid-v2/app/src/main/AndroidManifest.xml:16:17-69
+31-->/workspaces/vistoriappandroid-v2/app/src/main/AndroidManifest.xml:16:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/workspaces/vistoriappandroid-v2/app/src/main/AndroidManifest.xml:17:17-77
+33-->/workspaces/vistoriappandroid-v2/app/src/main/AndroidManifest.xml:17:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <uses-library
+37-->[androidx.window:window:1.0.0] /home/codespace/.gradle/caches/transforms-3/be833873a31283e8b7ea889a6be67d61/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+38            android:name="androidx.window.extensions"
+38-->[androidx.window:window:1.0.0] /home/codespace/.gradle/caches/transforms-3/be833873a31283e8b7ea889a6be67d61/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+39            android:required="false" />
+39-->[androidx.window:window:1.0.0] /home/codespace/.gradle/caches/transforms-3/be833873a31283e8b7ea889a6be67d61/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+40        <uses-library
+40-->[androidx.window:window:1.0.0] /home/codespace/.gradle/caches/transforms-3/be833873a31283e8b7ea889a6be67d61/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+41            android:name="androidx.window.sidecar"
+41-->[androidx.window:window:1.0.0] /home/codespace/.gradle/caches/transforms-3/be833873a31283e8b7ea889a6be67d61/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+42            android:required="false" />
+42-->[androidx.window:window:1.0.0] /home/codespace/.gradle/caches/transforms-3/be833873a31283e8b7ea889a6be67d61/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/520fe31de5cd82c02f4450706a730308/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/520fe31de5cd82c02f4450706a730308/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+46            android:authorities="com.vistoria.app.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/520fe31de5cd82c02f4450706a730308/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/520fe31de5cd82c02f4450706a730308/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/520fe31de5cd82c02f4450706a730308/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/520fe31de5cd82c02f4450706a730308/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/520fe31de5cd82c02f4450706a730308/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/codespace/.gradle/caches/transforms-3/fa8b1362e8a11ec56f541e96dd2c00e3/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/codespace/.gradle/caches/transforms-3/fa8b1362e8a11ec56f541e96dd2c00e3/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/codespace/.gradle/caches/transforms-3/fa8b1362e8a11ec56f541e96dd2c00e3/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>

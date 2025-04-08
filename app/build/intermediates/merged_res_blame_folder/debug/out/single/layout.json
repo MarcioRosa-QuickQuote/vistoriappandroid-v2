@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/item_photo_thumbnail.xml",
+        "source": "com.vistoria.app-main-47:/layout/item_photo_thumbnail.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/content_main.xml",
+        "source": "com.vistoria.app-main-47:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/fragment_nova_vistoria.xml",
+        "source": "com.vistoria.app-main-47:/layout/fragment_nova_vistoria.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/fragment_configuracoes.xml",
+        "source": "com.vistoria.app-main-47:/layout/fragment_configuracoes.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/fragment_descricao.xml",
+        "source": "com.vistoria.app-main-47:/layout/fragment_descricao.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/item_ambiente.xml",
+        "source": "com.vistoria.app-main-47:/layout/item_ambiente.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/activity_editar_ambiente.xml",
+        "source": "com.vistoria.app-main-47:/layout/activity_editar_ambiente.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/fragment_room_description.xml",
+        "source": "com.vistoria.app-main-47:/layout/fragment_room_description.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/fragment_photo_preview.xml",
+        "source": "com.vistoria.app-main-47:/layout/fragment_photo_preview.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/activity_historico.xml",
+        "source": "com.vistoria.app-main-47:/layout/activity_historico.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/item_ambiente_card.xml",
+        "source": "com.vistoria.app-main-47:/layout/item_ambiente_card.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/fragment_inspection_completed.xml",
+        "source": "com.vistoria.app-main-47:/layout/fragment_inspection_completed.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/fragment_camera.xml",
+        "source": "com.vistoria.app-main-47:/layout/fragment_camera.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/activity_captura_foto.xml",
+        "source": "com.vistoria.app-main-47:/layout/activity_captura_foto.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/activity_revisao_fotos.xml",
+        "source": "com.vistoria.app-main-47:/layout/activity_revisao_fotos.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/fragment_home.xml",
+        "source": "com.vistoria.app-main-47:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/fragment_historico.xml",
+        "source": "com.vistoria.app-main-47:/layout/fragment_historico.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/activity_main.xml",
+        "source": "com.vistoria.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/item_room_home.xml",
+        "source": "com.vistoria.app-main-47:/layout/item_room_home.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/item_photo.xml",
+        "source": "com.vistoria.app-main-47:/layout/item_photo.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/item_room.xml",
+        "source": "com.vistoria.app-main-47:/layout/item_room.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-44:/layout/item_camera_thumbnail.xml",
+        "source": "com.vistoria.app-main-47:/layout/item_camera_thumbnail.xml"
+    }
+]
