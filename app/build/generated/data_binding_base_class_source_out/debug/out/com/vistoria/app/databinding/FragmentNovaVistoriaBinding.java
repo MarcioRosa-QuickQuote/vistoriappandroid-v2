@@ -5,15 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
-import com.google.android.material.textfield.TextInputEditText;
-import com.google.android.material.textfield.TextInputLayout;
 import com.vistoria.app.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -21,38 +17,20 @@ import java.lang.String;
 
 public final class FragmentNovaVistoriaBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
   public final Button buttonFinishInspection;
 
-  @NonNull
-  public final TextInputEditText editTextClientName;
-
-  @NonNull
-  public final RecyclerView recyclerViewRooms;
-
-  @NonNull
-  public final TextInputLayout textInputLayoutClientName;
-
-  @NonNull
-  public final TextView textViewRoomsTitle;
-
-  private FragmentNovaVistoriaBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button buttonFinishInspection, @NonNull TextInputEditText editTextClientName,
-      @NonNull RecyclerView recyclerViewRooms, @NonNull TextInputLayout textInputLayoutClientName,
-      @NonNull TextView textViewRoomsTitle) {
+  private FragmentNovaVistoriaBinding(@NonNull LinearLayout rootView,
+      @NonNull Button buttonFinishInspection) {
     this.rootView = rootView;
     this.buttonFinishInspection = buttonFinishInspection;
-    this.editTextClientName = editTextClientName;
-    this.recyclerViewRooms = recyclerViewRooms;
-    this.textInputLayoutClientName = textInputLayoutClientName;
-    this.textViewRoomsTitle = textViewRoomsTitle;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -83,32 +61,7 @@ public final class FragmentNovaVistoriaBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editTextClientName;
-      TextInputEditText editTextClientName = ViewBindings.findChildViewById(rootView, id);
-      if (editTextClientName == null) {
-        break missingId;
-      }
-
-      id = R.id.recyclerViewRooms;
-      RecyclerView recyclerViewRooms = ViewBindings.findChildViewById(rootView, id);
-      if (recyclerViewRooms == null) {
-        break missingId;
-      }
-
-      id = R.id.textInputLayoutClientName;
-      TextInputLayout textInputLayoutClientName = ViewBindings.findChildViewById(rootView, id);
-      if (textInputLayoutClientName == null) {
-        break missingId;
-      }
-
-      id = R.id.textViewRoomsTitle;
-      TextView textViewRoomsTitle = ViewBindings.findChildViewById(rootView, id);
-      if (textViewRoomsTitle == null) {
-        break missingId;
-      }
-
-      return new FragmentNovaVistoriaBinding((ConstraintLayout) rootView, buttonFinishInspection,
-          editTextClientName, recyclerViewRooms, textInputLayoutClientName, textViewRoomsTitle);
+      return new FragmentNovaVistoriaBinding((LinearLayout) rootView, buttonFinishInspection);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

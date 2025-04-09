@@ -76,6 +76,10 @@
         "source": "com.vistoria.app-main-47:/layout/fragment_inspection_completed.xml"
     },
     {
+        "merged": "com.vistoria.app-merged_res-45:/drawable_placeholder_image.xml.flat",
+        "source": "com.vistoria.app-main-47:/drawable/placeholder_image.xml"
+    },
+    {
         "merged": "com.vistoria.app-merged_res-45:/drawable_ic_launcher_background.xml.flat",
         "source": "com.vistoria.app-main-47:/drawable/ic_launcher_background.xml"
     },

@@ -6,10 +6,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.vistoria.app.R;
@@ -19,7 +19,7 @@ import java.lang.String;
 
 public final class ItemRoomBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final CardView rootView;
 
   @NonNull
   public final Button buttonAddPhoto;
@@ -31,25 +31,25 @@ public final class ItemRoomBinding implements ViewBinding {
   public final ImageView imageViewRoom;
 
   @NonNull
-  public final TextView textViewRoomDescription;
+  public final TextView roomStatus;
 
   @NonNull
-  public final TextView textViewRoomName;
+  public final TextView textViewRoomDescription;
 
-  private ItemRoomBinding(@NonNull LinearLayout rootView, @NonNull Button buttonAddPhoto,
+  private ItemRoomBinding(@NonNull CardView rootView, @NonNull Button buttonAddPhoto,
       @NonNull Button buttonViewPhotos, @NonNull ImageView imageViewRoom,
-      @NonNull TextView textViewRoomDescription, @NonNull TextView textViewRoomName) {
+      @NonNull TextView roomStatus, @NonNull TextView textViewRoomDescription) {
     this.rootView = rootView;
     this.buttonAddPhoto = buttonAddPhoto;
     this.buttonViewPhotos = buttonViewPhotos;
     this.imageViewRoom = imageViewRoom;
+    this.roomStatus = roomStatus;
     this.textViewRoomDescription = textViewRoomDescription;
-    this.textViewRoomName = textViewRoomName;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public CardView getRoot() {
     return rootView;
   }
 
@@ -92,20 +92,20 @@ public final class ItemRoomBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.room_status;
+      TextView roomStatus = ViewBindings.findChildViewById(rootView, id);
+      if (roomStatus == null) {
+        break missingId;
+      }
+
       id = R.id.textViewRoomDescription;
       TextView textViewRoomDescription = ViewBindings.findChildViewById(rootView, id);
       if (textViewRoomDescription == null) {
         break missingId;
       }
 
-      id = R.id.textViewRoomName;
-      TextView textViewRoomName = ViewBindings.findChildViewById(rootView, id);
-      if (textViewRoomName == null) {
-        break missingId;
-      }
-
-      return new ItemRoomBinding((LinearLayout) rootView, buttonAddPhoto, buttonViewPhotos,
-          imageViewRoom, textViewRoomDescription, textViewRoomName);
+      return new ItemRoomBinding((CardView) rootView, buttonAddPhoto, buttonViewPhotos,
+          imageViewRoom, roomStatus, textViewRoomDescription);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

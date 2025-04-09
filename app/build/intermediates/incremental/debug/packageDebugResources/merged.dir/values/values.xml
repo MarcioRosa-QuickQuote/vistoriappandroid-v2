@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
     <color name="black">#000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
     <color name="dark_background">#121212</color>
-    <color name="dark_text">#E0E0E0</color>
-    <color name="orange_dark">#FF8C00</color>
-    <color name="orange_primary">#FFA500</color>
+    <color name="dark_text">#FFFFFF</color>
+    <color name="orange_dark">#F57C00</color>
+    <color name="orange_primary">#FF9800</color>
+    <color name="primary_text">#212121</color>
     <color name="purple_dark">#3700B3</color>
     <color name="white">#FFFFFF</color>
+    <color name="yellow_primary">#FFEB3B</color>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="spacing_xsmall">4dp</dimen>
     <string name="action_history">Histórico</string>
-    <string name="app_name">Vistoria App</string>
-    <string name="capture_photo">Capturar foto</string>
-    <string name="finish_inspection">Finalizar</string>
-    <string name="finish_photos">Finalizar fotos</string>
-    <string name="flash_button_description">Alternar flash</string>
-    <string name="hello_home_fragment">Olá, fragmento inicial</string>
-    <string name="new_inspection">Nova vistoria</string>
-    <string name="photo_thumbnail_description">Miniatura da foto</string>
+    <string name="action_settings">Configurações</string>
+    <string name="app_name">Vistoria App Teste 🚀</string>
+    <string name="photo_thumbnail_description">Descrição da miniatura</string>
     <string name="remove_photo_description">Remover foto</string>
     <style name="Theme.VistoriApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
@@ -29,9 +29,6 @@
         <item name="colorOnSecondary">#000000</item>
         
         <item name="android:statusBarColor" ns1:targetApi="l">#FBC02D</item>
-        
-    </style>
-    <style name="Theme.VistoriaApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
     </style>
     <style name="Theme.VistoriaApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>

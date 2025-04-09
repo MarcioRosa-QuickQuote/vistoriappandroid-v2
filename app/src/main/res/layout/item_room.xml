@@ -14,14 +14,14 @@
         android:padding="8dp">
 
         <ImageView
-            android:id="@+id/room_image"
+            android:id="@+id/imageViewRoom"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:scaleType="centerCrop"
             android:src="@drawable/placeholder_image" />
 
         <TextView
-            android:id="@+id/room_name"
+            android:id="@+id/textViewRoomDescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="gone"
@@ -32,6 +32,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sem fotos - Pendente"
+            android:layout_marginTop="4dp" />
+
+        <Button
+            android:id="@+id/buttonAddPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adicionar Foto"
+            android:layout_marginTop="4dp" />
+
+        <Button
+            android:id="@+id/buttonViewPhotos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver Fotos"
             android:layout_marginTop="4dp" />
 
     </LinearLayout>

@@ -1,13 +1,18 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color colorAccent
+color colorPrimary
 color dark_background
 color dark_text
 color orange_dark
 color orange_primary
+color primary_text
 color purple_dark
 color white
+color yellow_primary
 dimen fab_margin
+dimen spacing_xsmall
 drawable bg_status_tag
 drawable card_background
 drawable circle_background
@@ -28,6 +33,7 @@ drawable ic_logo_placeholder
 drawable ic_pending
 drawable ic_settings
 drawable placeholder
+drawable placeholder_image
 drawable round_button_background
 drawable rounded_background
 drawable rounded_blue_button
@@ -60,7 +66,6 @@ id buttonViewPhotos
 id buttonVoltarHome
 id editDescricao
 id editNomeAmbiente
-id editTextClientName
 id editTextComentario
 id editTextDescription
 id fab
@@ -74,24 +79,21 @@ id imageViewAmbiente
 id imageViewPhoto
 id imageViewRoom
 id imageViewThumbnail
-id nav_graph
 id nav_host_fragment_content_main
 id navigation_configuracoes
 id navigation_home
 id recyclerViewAmbientes
-id recyclerViewRooms
+id room_status
 id surfaceView
 id switchAmbienteAtivo
 id textClienteNome
 id textFotoInfo
-id textInputLayoutClientName
 id textNomeAmbiente
 id textStatus
 id textViewHistorico
 id textViewNomeAmbiente
 id textViewRoomDescription
 id textViewRoomName
-id textViewRoomsTitle
 id toolbar
 layout activity_captura_foto
 layout activity_editar_ambiente
@@ -121,13 +123,8 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
 string action_history
+string action_settings
 string app_name
-string capture_photo
-string finish_inspection
-string finish_photos
-string flash_button_description
-string hello_home_fragment
-string new_inspection
 string photo_thumbnail_description
 string remove_photo_description
 style Theme.VistoriApp

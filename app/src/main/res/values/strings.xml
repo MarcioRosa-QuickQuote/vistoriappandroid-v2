@@ -1,12 +1,7 @@
 <resources>
-    <string name="app_name">Vistoria App</string>
-    <string name="flash_button_description">Alternar flash</string>
-    <string name="capture_photo">Capturar foto</string>
-    <string name="finish_photos">Finalizar fotos</string>
-    <string name="hello_home_fragment">Bem-vindo ao Home</string>
-    <string name="new_inspection">Nova vistoria</string>
-    <string name="action_history">Histórico</string>
-    <string name="finish_inspection">Finalizar vistoria</string>
-    <string name="photo_thumbnail_description">Miniatura da foto</string>
+    <string name="app_name">Vistoria App Teste 🚀</string>
+    <string name="photo_thumbnail_description">Descrição da miniatura</string>
     <string name="remove_photo_description">Remover foto</string>
+    <string name="action_history">Histórico</string>
+    <string name="action_settings">Configurações</string>
 </resources>
