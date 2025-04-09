@@ -1,0 +1,5 @@
+logs/
+*.zip
+*.txt
+app/build/
+build/
